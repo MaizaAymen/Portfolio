@@ -1,0 +1,39 @@
+[
+    {
+      "title": "Travel agency App",
+      "description": "AYMENTRAVEL or also known by TunisieTRAVEL is a travel agency based in Hammamet allowing you to book Tozeur, Djerba, Sousse and Hammamet hotels at cheap prices.  .",
+      "image": "/assets/aymentaravel.png",
+      "github": "https://github.com/MaizaAymen/AYMENTRAVEL",
+      "liveDemo": ""
+    },
+    {
+       "title": "E-learning Inclusif",
+       "description": " growth website—offering tools, resources, and strategies for personal and professional success. Connect with a thriving community, access expert insights, and achieve your goals effortlessly. Start your growth journey today!",
+       "image": "/assets/growth.png",
+       "github": "https://github.com/MaizaAymen/growth-website",
+       "liveDemo": ""
+    },
+    { 
+      "title": "Solar system App",
+      "description": "A Solar System Web Application built using React, Node.js, and Nodemailer, offering an interactive visualization of planets and celestial objects. Users can explore detailed information, authenticate securely, and send inquiries through a contact form integrated with Nodemailer.",
+      "image": "/assets/nodejss.png",
+      "github": "https://github.com/MaizaAymen/Systeme-Solaire",
+      "liveDemo": "https://test-systemesolaire.vercel.app/"
+    },
+    
+    {
+      "title": "Quran Azkar App",
+      "description": "An Angular application offering a comprehensive experience for users to read and listen to morning and evening Azkar, as well as Quranic surahs.",
+      "image": "/assets/quran-azkar-app.png",
+      "github": "https://github.com/MaizaAymen/Quran-Azkar-App",
+      "liveDemo": "https://quranazkarapp.vercel.app/"
+    },
+    {
+      "title": "Calculator",
+      "description": "A simple and intuitive web-based calculator developed with React, offering basic arithmetic operations in a user-friendly interface.",
+      "image": "/assets/calculator.png",
+      "github": "https://github.com/MaizaAymen/Calculator",
+      "liveDemo": "https://calculator-one-fawn-16.vercel.app/"
+    }
+  ]
+  
