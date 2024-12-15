@@ -43,7 +43,7 @@ const Hero = () => {
                 >
                    <h1 className="text-5xl font-bold mb-2">Hello, I'm Aymen</h1>
                    <p className="text-lg text-gray-600 dark:text-gray-400">
-                   💻 Computer Technology Student | Specializing in Information Systems Development (ISD) 🌐 
+                   💻 Software engineering student | Specializing in Information Systems Development (ISD) 🌐 
                    </p>
                 </motion.div>
             </motion.div>
