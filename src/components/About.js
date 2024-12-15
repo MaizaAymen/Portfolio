@@ -31,7 +31,7 @@ const About = () => {
         <h3 className="font-semibold text-center sm:p-4 text-base sm:text-lg">
           I am a{" "}
           <span className="text-purple-500 ">
-           Computer Technology Student
+          software engineering student
           </span>{" "}
           with a strong passion for{" "}
           <span className="text-purple-500 ">
