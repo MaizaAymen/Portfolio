@@ -38,7 +38,7 @@
     },    
     {
       "title": "Weather App",
-      "description": "A simple and intuitive weather application built with React and Vite. This app allows users to search for real-time weather information, including temperature, humidity, and sunrise/sunset times, for any city worldwide.",
+      "description": "A simple and intuitive weather application built with React and Vite.This app allows users to search for real-time weather information, including temperature, humidity, and sunrise/sunset times, for any city worldwide.",
       "image": "assets/Capture d’écran 2025-01-03 133310.png",
       "github": "https://github.com/MaizaAymen/weather-app",
       "liveDemo": "https://weather-app-one-virid-15.vercel.app/"
