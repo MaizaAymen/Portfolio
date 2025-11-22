@@ -1,24 +1,65 @@
 import React, { useRef } from "react";
-import { FaCss3Alt, FaHtml5, FaReact, FaJs, FaAngular, FaNodeJs, FaGit,FaJava,FaPython, FaJira } from "react-icons/fa";
-import { SiTailwindcss, SiBootstrap, SiAntdesign } from "react-icons/si";
-import { motion, useInView } from "framer-motion";
-import { FaP, FaT } from "react-icons/fa6";
 
+// Valid FA icons
+import {
+  FaCss3Alt,
+  FaHtml5,
+  FaReact,
+  FaAngular,
+  FaNodeJs,
+  FaGit,
+  FaJava,
+  FaPython,
+  FaJira,
+} from "react-icons/fa";
+
+// Icons that were wrong or missing in your code
+import { FaJsSquare } from "react-icons/fa";   // replaces invalid FaJs
+import { FaDocker, FaLinux } from "react-icons/fa"; // correct Docker + Linux icons
+import { FaGitAlt } from "react-icons/fa";     // replaces duplicate wrong Git
+
+// Simple Icons for tech logos
+import {
+  SiTailwindcss,
+  SiBootstrap,
+  SiAntdesign,
+  SiMongodb,
+  SiExpress,
+  SiMysql,
+  SiPostgresql,
+  SiFirebase,
+  SiFastapi,
+  SiSpringboot,
+  SiSymfony,
+  SiTypescript,
+  SiTensorflow, // correct TensorFlow icon (FaT does NOT exist)
+} from "react-icons/si";
+
+import { motion, useInView } from "framer-motion";
 const skills = [
-    { name: "HTML5", icon: <FaHtml5 className="text-orange-500" />, color: "hover:text-orange-500" },
-    { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" />, color: "hover:text-blue-500" },
-    { name: "JavaScript", icon: <FaJs className="text-yellow-500" />, color: "hover:text-yellow-500" },
-    { name: "Angular", icon: <FaAngular className="text-red-600" />, color: "hover:text-red-600" },
-    { name: "React", icon: <FaReact className="text-blue-400" />, color: "hover:text-blue-400" },
-    { name: "Node.js", icon: <FaNodeJs className="text-green-500" />, color: "hover:text-green-500" },
-    { name: "Bootstrap", icon: <SiBootstrap className="text-purple-600" />, color: "hover:text-purple-600" },
-    { name: "TailwindCSS", icon: <SiTailwindcss className="text-blue-300" />, color: "hover:text-blue-300" },
-    { name: "antdesign", icon: <SiAntdesign className="text-blue-300" />, color: "hover:text-blue-300" },
-    { name: "Git", icon: <FaGit className="text-orange-600" />, color: "hover:text-orange-600" },
-    { name: "JAVA", icon: <FaJava className="text-red-600" />, color: "hover:text-orange-600" },
-    { name: "PYTHON", icon: <FaPython className="text-yellow-600" />, color: "hover:text-yellow-600" },
-     { name: "JIRA", icon: <FaJira className="text-yellow-600" />, color: "hover:text-yellow-600" },
-     { name: "TensorFlow", icon: <FaT className="text-yellow-600" />, color: "hover:text-yellow-600" },
+  { name: "JavaScript", icon: <FaJsSquare className="text-yellow-500" /> },
+  { name: "Angular", icon: <FaAngular className="text-red-600" /> },
+  { name: "React", icon: <FaReact className="text-blue-400" /> },
+  { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
+
+  { name: "Bootstrap", icon: <SiBootstrap className="text-purple-600" /> },
+  { name: "TailwindCSS", icon: <SiTailwindcss className="text-blue-300" /> },
+  { name: "Ant Design", icon: <SiAntdesign className="text-blue-300" /> },
+
+  { name: "Git", icon: <FaGit className="text-orange-600" /> },
+  { name: "Java", icon: <FaJava className="text-red-600" /> },
+  { name: "Python", icon: <FaPython className="text-yellow-600" /> },
+  { name: "Jira", icon: <FaJira className="text-blue-600" /> },
+  { name: "TensorFlow", icon: <SiTensorflow className="text-yellow-600" /> },
+
+  { name: "MySQL", icon: <SiMysql className="text-blue-600" /> },
+  { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-700" /> },
+
+  { name: "FastAPI", icon: <SiFastapi className="text-green-500" /> },
+  { name: "Docker", icon: <FaDocker className="text-blue-500" /> },
+  { name: "Linux", icon: <FaLinux className="text-yellow-500" /> },
+
+  { name: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
 ];
 
 const Skills = () => {
