@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
-import { FaCss3Alt, FaHtml5, FaReact, FaJs, FaAngular, FaNodeJs, FaGit } from "react-icons/fa";
-import { SiTailwindcss, SiBootstrap } from "react-icons/si";
+import { FaCss3Alt, FaHtml5, FaReact, FaJs, FaAngular, FaNodeJs, FaGit,FaJava,FaPython, FaJira } from "react-icons/fa";
+import { SiTailwindcss, SiBootstrap, SiAntdesign } from "react-icons/si";
 import { motion, useInView } from "framer-motion";
+import { FaP, FaT } from "react-icons/fa6";
 
 const skills = [
     { name: "HTML5", icon: <FaHtml5 className="text-orange-500" />, color: "hover:text-orange-500" },
@@ -12,7 +13,12 @@ const skills = [
     { name: "Node.js", icon: <FaNodeJs className="text-green-500" />, color: "hover:text-green-500" },
     { name: "Bootstrap", icon: <SiBootstrap className="text-purple-600" />, color: "hover:text-purple-600" },
     { name: "TailwindCSS", icon: <SiTailwindcss className="text-blue-300" />, color: "hover:text-blue-300" },
+    { name: "antdesign", icon: <SiAntdesign className="text-blue-300" />, color: "hover:text-blue-300" },
     { name: "Git", icon: <FaGit className="text-orange-600" />, color: "hover:text-orange-600" },
+    { name: "JAVA", icon: <FaJava className="text-red-600" />, color: "hover:text-orange-600" },
+    { name: "PYTHON", icon: <FaPython className="text-yellow-600" />, color: "hover:text-yellow-600" },
+     { name: "JIRA", icon: <FaJira className="text-yellow-600" />, color: "hover:text-yellow-600" },
+     { name: "TensorFlow", icon: <FaT className="text-yellow-600" />, color: "hover:text-yellow-600" },
 ];
 
 const Skills = () => {
