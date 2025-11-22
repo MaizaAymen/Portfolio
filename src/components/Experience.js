@@ -6,7 +6,7 @@ const Experience = () => {
     {
       title: "Web Development Intern",
       company: "Itqan",
-      duration: "February 2023 - July 2023",
+      duration: "February 2024 - July 2024",
       description: (
         <>
           <ul className="list-disc pl-5">
@@ -56,10 +56,46 @@ const Experience = () => {
 
         </>
       ),
+    },{
+      title: "Full Stack Web Developer Intern",
+      company: "Itqan",
+      duration: "February 2025 - July 2025",
+      description: (
+        <>
+          <ul className="list-disc pl-5">
+  <li>
+    Developed real-world applications using <span className="font-medium text-purple-700 dark:text-purple-100">MERN stack</span>.
+  </li>
+  <li>
+    Used modern JavaScript<span className="font-medium text-purple-700 dark:text-purple-100"> frameworks  </span> with <span className="font-medium text-purple-700 dark:text-purple-100">for frontend </span> and <span className="font-medium text-purple-700 dark:text-purple-100"> backend</span> .
+  </li>
+  <li>
+   Collaborated with <span className="font-medium text-purple-700 dark:text-purple-100">cross-functional</span>teams  <span className="font-medium text-purple-700 dark:text-purple-100"></span> to deploy scalable web features.
+  </li>
+  
+</ul>
+
+        </>
+      ),      
     }
   ];
 
   const certifications = [
+    {
+      title: "Python Essentials 1",
+      provider: (<><div className="flex items-center gap-2"><FaFreeCodeCamp />"CISCO"</div></>),
+      link: "https://www.credly.com/badges/c0a40cde-cc24-4442-aabd-3ce1cbbe7943/linked_in_profile",
+    },
+    {
+      title: "Python Essentials 2",
+      provider: (<><div className="flex items-center gap-2"><FaFreeCodeCamp />"CISCO"</div></>),
+      link: "https://www.credly.com/badges/8de12d40-5891-4fce-ae0b-4ab8070da5d0/linked_in_profile",
+    },
+    {
+      title: "AWS Academy Graduate - AWS Academy Cloud Foundations",
+      provider: (<><div className="flex items-center gap-2"><FaFreeCodeCamp />"Amazon Web Services (AWS)"</div></>),
+      link: "https://www.credly.com/badges/8e54807b-3c0a-4fdb-a17d-b6b662481b5e/linked_in_profile",
+    },
     {
       title: "JavaScript Algorithms and Data Structures",
       provider: (<><div className="flex items-center gap-2"><FaFreeCodeCamp />"freeCodeCamp"</div></>),

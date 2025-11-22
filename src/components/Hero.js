@@ -43,7 +43,7 @@ const Hero = () => {
                 >
                    <h1 className="text-5xl font-bold mb-2">Hello, I'm Aymen</h1>
                    <p className="text-lg text-gray-600 dark:text-gray-400">
-                   💻 Software engineering student | Specializing in Information Systems Development (ISD) 🌐 
+                  Computer Science Student | MERN Stack & FastAPI Developer | Video Editor| Exploring AI, Docker & Modern Web Techs
                    </p>
                 </motion.div>
             </motion.div>
@@ -57,7 +57,7 @@ const Hero = () => {
               transition={{ delay: 0.6, duration: 0.8 }}
         >
         <a
-          href="assets\Aymen-Maiza-FlowCV-Resume-20241215.pdf"
+          href="assets\CV.pdf"
           download="Aymen_maiza.pdf"
           className="bg-purple-500 px-6 py-2 rounded-lg hover:bg-purple-600 flex items-center space-x-2"
         >

@@ -1,17 +1,30 @@
-[
+[{
+      "title": "HostCycle",
+      "description": "HostCycle is a web hosting platform similar to Vercel that allows users to deploy and manage websites. It provides scalable hosting solutions with automated deployment, domain management, and uptime monitoring. Users can subscribe to hosting plans for specific durations (e.g., monthly, yearly), and the system handles renewals, expirations, and notifications.",
+      "image": "assets/aymend.png",
+      "github": "https://github.com/MaizaAymen/HostCycle",
+      "liveDemo": "https://host-cycle.vercel.app/"
+    },
     {
-      "title": "Travel agency App",
-      "description": "AYMENTRAVEL or also known by TunisieTRAVEL is a travel agency based in Hammamet allowing you to book Tozeur, Djerba, Sousse and Hammamet hotels at cheap prices.  .",
-      "image": "/assets/aymentaravel.png",
-      "github": "https://github.com/MaizaAymen/AYMENTRAVEL",
+      "title": "Inboxo : Email Management",
+      "description": "A powerful and intuitive FastAPI-based email management system that allows you to send, receive, and manage Gmail emails through a RESTful API interface.",
+      "image": "/assets/image.png",
+      "github": "https://github.com/MaizaAymen/Inboxo",
       "liveDemo": ""
       
     },
     {
-       "title": "E-learning Inclusif",
-       "description": " growth website—offering tools, resources, and strategies for personal and professional success. Connect with a thriving community, access expert insights, and achieve your goals effortlessly. Start your growth journey today!",
-       "image": "/assets/growth.png",
-       "github": "https://github.com/MaizaAymen/growth-website",
+       "title": "Car Rental Management System",
+       "description": " About This is a comprehensive Car Rental Management System built using Spring Boot. The application allows you to manage car inventory, clients, rentals, returns, and payments in a seamless web interface.",
+       "image": "/assets/car.png",
+       "github": "https://github.com/MaizaAymen/AYMEN_TRAVEL?tab=readme-ov-file",
+       "liveDemo": ""
+    },
+    {
+       "title": "NovaUni",
+       "description": "About NovaUni is a comprehensive educational platform designed to modernize the learning experience for students and educators. The platform combines course management, AI-generated content, quiz functionality, and interactive learning materials to provide a complete educational ecosystem.",
+       "image": "/assets/nova.png",
+       "github": "https://github.com/MaizaAymen/NovaUni",
        "liveDemo": ""
     },
     { 
