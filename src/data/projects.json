@@ -1,9 +1,11 @@
-[{
-      "title": "HostCycle",
-      "description": "HostCycle is a web hosting platform similar to Vercel that allows users to deploy and manage websites. It provides scalable hosting solutions with automated deployment, domain management, and uptime monitoring. Users can subscribe to hosting plans for specific durations (e.g., monthly, yearly), and the system handles renewals, expirations, and notifications.",
-      "image": "assets/aymend.png",
-      "github": "https://github.com/MaizaAymen/HostCycle",
-      "liveDemo": "https://host-cycle.vercel.app/"
+[
+    
+   
+  {
+      "title": "IkriMinDarek",
+      "description": "A modern, full-stack property rental platform built with React Native, Express.js, and PostgreSQL. Users can list properties, search rentals, make bookings, and communicate with landlords in real-time.",
+      "image": "assets/samiros.png",
+      "github": "https://github.com/MaizaAymen/IkriMinDarek"
     },
     {
       "title": "Inboxo : Email Management",
@@ -21,11 +23,18 @@
        "liveDemo": ""
     },
     {
-       "title": "NovaUni",
-       "description": "About NovaUni is a comprehensive educational platform designed to modernize the learning experience for students and educators. The platform combines course management, AI-generated content, quiz functionality, and interactive learning materials to provide a complete educational ecosystem.",
-       "image": "/assets/nova.png",
-       "github": "https://github.com/MaizaAymen/NovaUni",
+       "title": "Learnflow - Learning Management System",
+       "description": "Learnflow is a comprehensive Learning Management System designed to streamline educational administration and enhance the learning experience. Built with modern web technologies, it provides a complete solution for managing students, teachers, courses, schedules, and more.",
+       "image": "/assets/learnimage.png",
+       "github": "https://github.com/MaizaAymen/Learnflow",
        "liveDemo": ""
+    },
+     {
+      "title": "SummarAIze",
+      "description": "Revolutionize your PDF workflow with SummarAIze – an AI-powered tool that enhances document interaction by allowing users to chat with PDFs, generate summaries, create quizzes, and more.",
+      "image": "assets/summ.png",
+      "github": "https://github.com/MaizaAymen/SalamHack-HrissaDev",
+      "liveDemo": "https://summar-ai-ze.vercel.app/"
     },
     { 
       "title": "Solar system App",
@@ -41,6 +50,20 @@
       "image": "assets/o.png",
       "github": "https://github.com/MaizaAymen/OasisQuestPlate",
       "liveDemo": "https://oasis-quest.vercel.app/"
+    },
+    {
+       "title": "NovaUni",
+       "description": "About NovaUni is a comprehensive educational platform designed to modernize the learning experience for students and educators. The platform combines course management, AI-generated content, quiz functionality, and interactive learning materials to provide a complete educational ecosystem.",
+       "image": "/assets/nova.png",
+       "github": "https://github.com/MaizaAymen/NovaUni",
+       "liveDemo": ""
+    },
+    {
+      "title": "HostCycle",
+      "description": "HostCycle is a web hosting platform similar to Vercel that allows users to deploy and manage websites. It provides scalable hosting solutions with automated deployment, domain management, and uptime monitoring. Users can subscribe to hosting plans for specific durations (e.g., monthly, yearly), and the system handles renewals, expirations, and notifications.",
+      "image": "assets/aymend.png",
+      "github": "https://github.com/MaizaAymen/HostCycle",
+      "liveDemo": "https://host-cycle.vercel.app/"
     },
     {
       "title": "Quran Azkar App",

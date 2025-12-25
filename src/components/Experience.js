@@ -95,6 +95,10 @@ const Experience = () => {
       title: "AWS Academy Graduate - AWS Academy Cloud Foundations",
       provider: (<><div className="flex items-center gap-2"><FaFreeCodeCamp />"Amazon Web Services (AWS)"</div></>),
       link: "https://www.credly.com/badges/8e54807b-3c0a-4fdb-a17d-b6b662481b5e/linked_in_profile",
+    },{
+      title: "AWS Academy Graduate - Data Engineering - Training Badge",
+      provider: (<><div className="flex items-center gap-2"><FaFreeCodeCamp />"Amazon Web Services (AWS)"</div></>),
+      link: "https://www.credly.com/badges/7c582740-98d3-4f68-aeed-3006a8ab1929/linked_in_profile",
     },
     {
       title: "JavaScript Algorithms and Data Structures",
